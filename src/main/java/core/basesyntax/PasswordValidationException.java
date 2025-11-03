@@ -1,3 +1,7 @@
 package core.basesyntax;
 
-//write your code here
+class PasswordValidationException extends RuntimeException {
+    PasswordValidationException(String message) {
+        super(message);
+    }
+}
